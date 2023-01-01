@@ -1,18 +1,17 @@
-
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Gothic A1', sans-serif;
 }
 
-body{
+body {
     /* min-height: 100vh; */
     background-color: rgb(195, 222, 237);
     color: white;
 }
 
 
-.box{
+.box {
     width: 35em;
     height: 45em;
     margin: 2em auto;
@@ -20,27 +19,58 @@ body{
     background: #c6c6c6;
     box-shadow: 19px 19px 35px #000000, -18px -18px 35px #544a4a;
 }
-header{
+
+header {
     max-width: 1000px;
     width: 100%;
-     margin: auto;
-} 
-
-.box h1{
-    text-align:center;
-    font-size: 50px;
-    padding-top: 1rem;
-    color: black;
+    margin: auto;
 }
 
-.container .task{
-   /* margin: 40px;
-   padding: ;
-   appearance: none;
-   border: none;
-   background: none;
-   border-radius: 20px; */
-   margin: 3em 6em;
-   
+.box h1 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 1rem;
+    color: rgb(254, 254, 254);
+    text-decoration: 5px underline ;
+}
 
+.container .task {
+    margin: 3em 0 2em 3em;
+    padding: .5em 4em;
+    appearance: none;
+    border-radius: 20px;
+
+}
+
+.container .add {
+    font-size: 1.5rem;
+    padding: .5 1em 1em;
+    margin-left: 1em;
+    width: 3em;
+    border-radius: 2rem;
+    appearance: none;
+}
+
+.needTodo h2 {
+    text-align: center;
+    margin-bottom: .5em;
+    font-size: 3em;
+    color: rgb(199, 140, 241);
+}
+
+.needTodo input {
+    margin: 0 0 2em 3em;
+    padding: .5em 4em;
+    appearance: none;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.needTodo .delete{
+    font-size: 1.5rem;
+    padding: .5 1em 1em;
+    margin-left: 1em;
+    width: 4em;
+    border-radius: 2rem;
+    appearance: none;
 }
