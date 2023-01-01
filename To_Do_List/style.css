@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gothic A1', sans-serif;
+}
+
+body{
+    /* min-height: 100vh; */
+    background-color: rgb(195, 222, 237);
+    color: white;
+}
+
+
+.box{
+    width: 35em;
+    height: 45em;
+    margin: 2em auto;
+    border-radius: 30px;
+    background: #c6c6c6;
+    box-shadow: 19px 19px 35px #000000, -18px -18px 35px #544a4a;
+}
+header{
+    max-width: 1000px;
+    width: 100%;
+     margin: auto;
+} 
+
+.box .header{
+    margin:0 3rem 3rem 5rem;
+    text-align:center;
+    font-size: 50px;
+    color: black;
+}
+
+.container .task{
+   margin: 20px;
+
+}

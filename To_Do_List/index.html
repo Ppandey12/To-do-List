@@ -5,16 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@300&family=Nosifer&family=Press+Start+2P&display=swap');
+        </style>
     <title>To_Do_List</title>
 </head>
 
 <body>
     <main>
-        <section class="top">
-            <h1 class="headder">Todo List</h1>
-            <input class="" type="text" placeholder="What do you have planned?">
-            <button type="submit">Add</button>
+        <div class="box">
+        <header>
+            <h1 class="header">Todo List</h1>
+        </header>
+        <section class="container">
+            <input class="task" type="text" placeholder="What do you have planned?">
+            <button class="add"  type="submit">Add</button>
         </section>
+        <section class="needTodo">
+            <h2>Tasks</h2>
+            <input type="text">
+            <button class="delete">Delete</button>
+        </section>
+    </div>
     </main>
 </body>
 
