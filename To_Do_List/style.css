@@ -26,14 +26,21 @@ header{
      margin: auto;
 } 
 
-.box .header{
-    margin:0 3rem 3rem 5rem;
+.box h1{
     text-align:center;
     font-size: 50px;
+    padding-top: 1rem;
     color: black;
 }
 
 .container .task{
-   margin: 20px;
+   /* margin: 40px;
+   padding: ;
+   appearance: none;
+   border: none;
+   background: none;
+   border-radius: 20px; */
+   margin: 3em 6em;
+   
 
 }
