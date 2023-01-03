@@ -5,11 +5,9 @@
 }
 
 body {
-    /* min-height: 100vh; */
     background-color: rgb(195, 222, 237);
     color: white;
 }
-
 
 .box {
     width: 35em;
@@ -60,39 +58,6 @@ h2 {
 .needTodo{
     text-align: center;
 }
-
-/* .needTodo .do{
-    border: 2px solid black;
-    border-radius: 20px;
-    margin: 16px 8em 0 1em ;
-    background: white;
-    color: black;
-    padding: .5em 4em;
-
-    /* margin: 0 0 2em 3em;
-    padding: .5em 4em;
-    border-radius: 20px;
-    text-align: center;
-    line-height: 10px; */
-/* }  */
-/* 
-.required {
-    margin: 0 0 2em 3em;
-    padding: .5em 4em;
-    appearance: none;
-    border-radius: 20px;
-    text-align: center;
-}
-
-.delete{
-    position:absolute;
-    left: 38em;
-    font-size: 1.5em;
-    margin-right: 5em;
-    border-radius: 2rem;
-    appearance: none;
-/* }  */
-
 
 .do input {
     margin: 1em 0 2em 1em;
